@@ -2,8 +2,6 @@
 library(plyr)
 library(reshape)
 library(reshape2)
-require(devtools)
-source_gist(4676064)
 
 ## Unzip data files to the working directory
 unzip("getdata-projectfiles-UCI HAR Dataset.zip")
